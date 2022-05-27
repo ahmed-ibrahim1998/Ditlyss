@@ -1,0 +1,20 @@
+### Get all authinticated user Orders
+GET {{local_url}}/api/order
+Accept: application/json
+Authorization: Bearer {{local_token}}
+
+
+> {%
+client.test("Request done", function(){
+    client.assert(response.status==200 && response.contentType.mimeType=='application/json', 'Done successfully');
+}) %}
+
+###
+POST {{local_url}}/api/order
+Accept: application/json
+Authorization: Bearer {{local_token}}
+Content-Type: application/json
+
+{
+
+}

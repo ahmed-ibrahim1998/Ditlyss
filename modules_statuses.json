@@ -1,0 +1,17 @@
+{
+    "Admin": true,
+    "Locations": true,
+    "Order": true,
+    "Drivers": true,
+    "Coupon": true,
+    "Product": true,
+    "Ads": true,
+    "BranchVendor": true,
+    "Settings": true,
+    "Slides": true,
+    "Rating": true,
+    "Vendor": true,
+    "Client": true,
+    "Cart": true,
+    "Trainers": true
+}

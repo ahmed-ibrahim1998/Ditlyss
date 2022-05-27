@@ -1,0 +1,48 @@
+<?php
+
+return [
+    'view' => 'View',
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'created-at' => 'Created at',
+    'actions' => 'Actions',
+    'create' => 'Create',
+    'active' => 'Active',
+    'inactive' => 'Inactive',
+    'update' => 'Update',
+    'type-here' => 'Type here ...',
+    'cancel' => 'Cancel',
+    'categories' => [
+        'add-new-category' => 'Add new category',
+        'name' => 'Categories',
+        'status' => 'Status',
+        'ordering' => 'Ordering',
+        'products-count' => 'Products Count',
+        'photo' => 'Photo',
+        'category-name' => 'Category name',
+        'is_active' => 'Is active',
+        'is_featured' => 'Is featured',
+    ],
+    'products' => [
+        'add-new-product' => 'Add new product',
+        'photo' => 'Photo',
+        'name' => 'Name',
+        'category' => 'Category',
+        'branch' => 'Branch',
+        'price' => 'Price',
+        'status' => 'Status',
+        'over-all-rating' => 'Rating',
+        'active' => 'Active',
+        'inactive' => 'Inactive',
+        'add-attribute' => 'Add attribute',
+        'extra-choice' => 'Extra choice',
+        'choice-name' => 'Choice name',
+        'additional-price' => 'Additional Price',
+        'product-price-plus' => '( Added to product price )',
+        'product-attributes' => 'Product attributes',
+        'attribute-name' => 'Attribute name',
+        'attribute-type' => 'Attribute type',
+        'choice' => 'Choice',
+        'remove-choice' => 'Remove choice'
+    ]
+];

@@ -1,0 +1,13 @@
+{
+    "name": "Trainers",
+    "alias": "trainers",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Trainers\\Providers\\TrainersServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

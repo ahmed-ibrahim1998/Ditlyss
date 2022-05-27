@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'name' => 'Name',
+    'title' => 'Title',
+    'permissions' => 'Permissions',
+    'users-count' => 'Users Count',
+    'actions' => 'Actions',
+    'create' => 'Create',
+    'add-new-role' => 'Add new role',
+    'permissions' => 'Permissions',
+    'save' => 'Save Changes',
+    'type-here' => 'Type here ...',
+    'reset' => 'Reset',
+    'cancel' => 'Cancel',
+    'back' => 'Back',
+    'view' => 'View',
+    'filter' => 'Filter',
+    'filteration' => 'Filteration',
+    'delete' => 'Delete',
+    'edit' => 'Edit',
+    'roles' => [
+        'name' => 'Role name',
+        'create' => 'Create',
+        'read' => 'Read',
+        'update' => 'Update',
+        'delete' => 'Delete',
+        'export' => 'Export',
+        'title' => 'Title',
+        'print' => 'Print',
+        'all-abilities' => 'All Abilities'
+    ],
+    'users' => [
+        'title' => 'User management',
+        'email' => 'Email',
+        'created-at' => 'Created at',
+        'role' => 'Role',
+        'profile-photo' => 'Photo',
+        'name' => 'Name',
+        'add-new-user' => 'Add new user',
+        'creation-date' => 'Creation date',
+        'from' => 'From',
+        'to' => 'To',
+        'role-name' => 'Role name',
+        'name-or-email' => 'Name or email',
+        'id' => 'User ID',
+        'select-role' => 'Select role',
+        'password_confirmation' => 'Password confirmation',
+        'password' => 'Password',
+        'new-password' => 'New password'
+    ]
+];

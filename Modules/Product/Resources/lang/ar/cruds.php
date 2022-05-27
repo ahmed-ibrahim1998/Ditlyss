@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'view' => 'عرض',
+    'edit' => 'تعديل',
+    'delete' => 'حذف',
+    'created-at' => 'تاريخ الانشاء',
+    'actions' => 'الأوامر',
+    'create' => 'انشاء',
+    'update' => 'تحديث',
+    'cancel' => 'تراجع',
+    'categories' => [
+        'add-new-category' => 'اضافة قسم جديد',
+        'name' => 'اقسام المنتجات',
+        'status' => 'الحالة',
+        'ordering' => 'الترتيب',
+        'products-count' => 'عدد المنتجات',
+        'photo' => 'الصورة',
+        'category-name' => 'اسم القسم',
+        'is_active' => 'هل نشط',
+        'is_featured' => 'هل مميز'
+    ],
+    'products' => [
+        'add-new-product' => 'اضافة منتج جديد',
+        'photo' => 'الصورة',
+        'name' => 'الاسم',
+        'category' => 'القسم',
+        'branch' => 'الفرع',
+        'over-all-rating' => 'التقييم',
+        'price' => 'السعر',
+        'status' => 'الحالة',
+        'active' => 'نشط',
+        'inactive' => 'غير نشط',
+        'add-attribute' => 'اضافة صفة',
+        'extra-choice' => 'الخيارات الاضافية',
+        'choice-name' => 'اسم الخيار',
+        'additional-price' => 'السعر الاضافي',
+        'product-price-plus' => 'اضافة الي سعر المنتج',
+        'product-attributes' => 'مواضفات المنتج',
+        'attribute-name' => 'اسم الصفة',
+        'attribute-type' => 'نوع الصفة',
+        'choice' => 'الخيار',
+        'remove-choice' => 'حذف الخيار',
+    ]
+];

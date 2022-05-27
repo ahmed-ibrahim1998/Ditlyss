@@ -1,0 +1,51 @@
+### S
+POST {{local_url}}/api/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "client1@test.com",
+    "password": "password"
+}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+POST {{local_url}}/api/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "s",
+    "name": "Mahmoud",
+    "password": "123456789",
+    "password_confirmation": "123456789"
+}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 422, "Response status is " +response.status );
+});
+%}
+
+###
+POST {{local_url}}/api/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "l@l.com",
+    "name": "Mahmoud",
+    "password": "123456789",
+    "password_confirmation": "123456789"
+}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 201, "Response status is " +response.status );
+});
+%}

@@ -1,0 +1,27 @@
+{
+    "name": "nwidart/order",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Order\\": ""
+        }
+    },
+    "require": {
+        "yajra/laravel-datatables-buttons": "^1.0",
+        "yajra/laravel-datatables-html": "^1.0"
+    }
+}
